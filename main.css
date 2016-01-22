@@ -1,0 +1,210 @@
+.PageHolder{
+	
+}
+.HeaderHolder{
+	position: fixed;
+	z-index: 10;
+	left:0%;
+	top:0%;
+	width:100%;
+	overflow-x:hidden;
+	overflow-y:hidden;
+	
+}
+.LeftHead{
+	position:Absolute;
+	left:0%;
+	top:0%;
+	z-index: 1;
+	width:30%;
+}
+.RightHead{
+	position:Absolute;
+	left:65%;
+	top:0%;
+	z-index: 1;
+	width:35%;
+	text-align: center;
+	font-size:115%;
+}
+.BodyHolder1{
+	background-color:black;
+	position:Absolute;
+	left:0%;
+	top:22%;
+	width:100%;
+	overflow-x:hidden;
+	overflow-y:hidden;
+	height:78%;
+	text-align: center;
+}
+.BodyHolder2{
+	background-color:blue;
+	position:Absolute;
+	left:0%;
+	top:100%;
+	width:100%;
+	overflow-x:hidden;
+	overflow-y:hidden;
+	height:78%;
+	text-align: center;
+}
+.BodyHolder3{
+	background-color:purple;
+	position:Absolute;
+	left:0%;
+	top:178%;
+	width:100%;
+	overflow-x:hidden;
+	overflow-y:hidden;
+	height:78%;
+	text-align: center;
+}
+.BodyHolder4{
+	position:Absolute;
+	left:0%;
+	top:256%;
+	width:100%;
+	overflow-x:hidden;
+	overflow-y:hidden;
+	height:78%;
+	text-align: center;
+}
+
+.BodyHolder5{
+	position:Absolute;
+	left:0%;
+	top:334%;
+	width:100%;
+	overflow-x:hidden;
+	overflow-y:hidden;
+	height:78%;
+	text-align: center;
+}
+.BodyHolder6{
+	position:Absolute;
+	left:0%;
+	top:412%;
+	width:100%;
+	overflow-x:hidden;
+	overflow-y:hidden;
+	height:78%;
+	text-align: center;
+}
+.TopTitle{
+	z-index: 1;
+	position:Absolute;
+	left:26%;
+	top:0%;
+	width:54%;
+}
+.LeftBody{
+	z-index: 2;
+	position:Absolute;
+	left:5%;
+	top:19%;
+	text-align: left;
+}
+
+.RightBody{
+	z-index: 2;
+	position:Absolute;
+	left:65%;
+	top:25%;
+	font-size:160%;
+	color:white;
+	text-align: left;
+}
+.LeftBodylow{
+	z-index: 2;
+	position:Absolute;
+	left:5%;
+	top:55%;
+}
+
+.RightBodylow{
+	z-index: 2;
+	position:Absolute;
+	left:65%;
+	top:55%;
+	color:white;
+	text-align: left;
+}
+.AlignRight{
+	text-align: right;
+	position:Absolute;
+	left:10%;
+	top:1%;
+}
+.AlignRight1{
+	text-align: right;
+	position:Absolute;
+	left:10%;
+	top:18%;
+}
+.AlignRight2{
+	text-align: right;
+	position:Absolute;
+	left:10%;
+	top:36%;
+	text-align: center;
+}
+.MidTitle{
+	z-index: 2;
+	position:Absolute;
+	left:29%;
+	top:30%;
+	width:42%;
+}
+.MidTitlelow{
+	z-index: 2;
+	position:Absolute;
+	left:40%;
+	top:70%;
+	text-align: center;
+	width:30%;
+}
+.LeftTitleHigh{
+	z-index: 2;
+	position:Absolute;
+	left:30%;
+	top:-30%;
+	text-align: center;
+}
+/*Generic Reusable Text sections*/
+p.whiteLarTextV{
+	font-size:220%;
+	color:white;
+	font-style: italic;
+	font-family:Verdana, Geneva, sans-serif;
+}
+p.whiteMedTextV{
+	font-size:160%;
+	color:white;
+	font-style: italic;
+	font-family:Verdana, Geneva, sans-serif;
+}
+p.whiteLarTextTW{
+	font-size:220%;
+	color:white;
+	font-style: italic;
+	font-family:"Tw Cen MT", "Century Gothic", Arial;
+}
+p.whiteMedTextTW{
+	font-size:160%;
+	color:white;
+	font-style: italic;
+}
+input{
+	font-size:100%;
+	width:65%;
+	text-align: left;
+	font-family:"Tw Cen MT", "Century Gothic", Arial;
+}
+button{
+	outline:none;
+	overflow: hidden;
+	background-color: transparent;
+	border: none;
+	display:block;
+}
